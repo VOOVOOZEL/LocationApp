@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:id="@+id/lbl_Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="40dip"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dip"/>
+
+    <TextView
+        android:id="@+id/tvTitleGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/provider_gps"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvEnabledGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvStatusGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvLocationGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvTitleNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/provider_network"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvEnabledNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvStatusNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvLocationNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dip"/>
+
+    <TextView
+        android:id="@+id/tvCountBytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/internet"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvRX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tvTX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="24sp"/>
+
+    <Button android:id="@+id/btn_permissions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask permissions"/>
+
+    <Button android:id="@+id/btn_Logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+</LinearLayout>
+
